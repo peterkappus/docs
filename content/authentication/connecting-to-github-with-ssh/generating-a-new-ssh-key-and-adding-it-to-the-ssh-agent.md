@@ -133,7 +133,7 @@ Before adding a new SSH key to the ssh-agent to manage your keys, you should hav
       /Users/USER/.ssh/config: line 16: Bad configuration option: usekeychain
       ```
 
-      add an additional config line to your `Host *` section:
+      add an additional config line to the top of your `Host *` section:
 
       ```
       Host *
